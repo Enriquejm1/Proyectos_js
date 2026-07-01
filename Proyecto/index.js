@@ -1,11 +1,13 @@
 const express = require('express');
 const debug = require('debug')('app:server');
-const {Config} = require('./src/config');
+const {Config} = require('./src/config/index');
+const {ProductsAPI} = require("./src/products/index")
 
 const app = express();
 app.use(express.json());
 
 //Modulos
+ProductsAPI(app);
 
 app.listen(Config.port,()=>{
     debug(`Servidor escuchando 1 ${Config.port}`);
