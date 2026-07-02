@@ -47,4 +47,13 @@ Response.success(res,201,'Producto Agregado',insertedID);
             //res.status(500).json({message:"Internar server error"});
         }
     },
+    generateReport: (req,res)=>{
+        try {
+            ProductsService.generateReport('Invetario',res);
+            
+        } catch (error) {
+            debug(error);
+            Response.error(res);
+        }
+    }
 }
