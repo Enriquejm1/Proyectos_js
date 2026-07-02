@@ -9,8 +9,11 @@ module.exports.Database = (collection) =>
     try {
         console.log(conecction);
         if(!conecction){
-        const clien = new MongoClient(Config.mongoUri);
-        let conecction = await clien.connect();
+            console.log(Config.mongoUri);
+        const client = new MongoClient(Config.mongoUri);
+        console.log(client);
+        conecction = await client.connect();
+        console.log(conecction);
         debug('Nueva conexion realizada con Mongodb atlas');    
     }
     debug('Reutilizando conexión');
