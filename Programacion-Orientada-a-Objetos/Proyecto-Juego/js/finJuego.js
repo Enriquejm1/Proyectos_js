@@ -1,45 +1,39 @@
-class SplashScreen{
-    #contenedor = document.createElement("div");
+class FinJuego{
+    #finJuego = document.createElement("div");
     #idAnimacion = null;
     crear(){
         const estilos = document.createElement("style");
         estilos.innerHTML= `
-        .splashscreen{
-        background: blue;
+        .finJuego{
         width:650px;
         height:650px;
         border:1px solid black;
-        background:url(img/Attack-1.png) no-repeat;
+        background:url(img/finJuego.png) no-repeat;
         }
-        .splashscreen-1{
+        .finJuego-1{
         background-position-x:0;
         }
-        .splashscreen-2{
+        .finJuego-2{
         background-position-x:-650px;
         }
         ;`
         document.head.appendChild(estilos);
-        this.#contenedor.classList.add("splashscreen","splashscreen-1");
+        contenedor.remove();
+        this.#finJuego.className ="finJuego finJuego-1";
         const raiz = document.getElementById("root");
-        raiz.appendChild(this.#contenedor);
-        // raiz.className="splashscreen";
-        //raiz.innerText = "inicio del juego...";
+        raiz.appendChild(this.#finJuego);
         this.#animacion();
-    }
-    eliminar(){
-        this.#contenedor.remove();
-        window.clearInterval(this.#idAnimacion);
     }
     #animacion(){
         let cuadro = 1;
 
         const animacion = ()=>{
-            this.#contenedor.classList.remove(`splashscreen-${cuadro}`);
+            this.#finJuego.classList.remove(`finJuego-${cuadro}`);
             cuadro++;
             if(cuadro>MAX_CUADRO){
                 cuadro=1;
             }
-            this.#contenedor.classList.add(`splashscreen-${cuadro}`);
+            this.#finJuego.classList.add(`finJuego-${cuadro}`);
         }
         this.#idAnimacion = setInterval(animacion,TIEMPO);
     }
