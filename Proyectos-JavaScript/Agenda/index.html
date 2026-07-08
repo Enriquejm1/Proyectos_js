@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Psicologica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <Header>
+        <h1>Agenda Psícologica</h1>
+    </Header>
+
+    <section class="add-contact">
+        <h2>Agregar Pacientes</h2>
+        <form id="contactFrom">
+            <input type="text" id="contactName" placeholder="Nombre del paciente" required>
+            <input type="number" id="contacTel" placeholder="Número de telefono" required>
+            <input type="date" id="contacDate" required>
+            <input type="time" id="contactTime" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <section class="search">
+        <h1>Buscar Paciente</h1> <br>
+        <input type="text" id="searchinput" placeholder="Nombre del Paciente">
+    </section>
+
+    <section class="contact-list">   
+        <h1>Lista de Pacientes</h1> <br>     
+        <ul id="contactList">
+        </ul>
+    </section>
+    <script src="js/Script.js"></script>
+</body>
+
+</html>

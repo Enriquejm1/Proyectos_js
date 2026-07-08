@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Editor_Codigo/js.png);
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.editor-container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0 ,0.2);
+}
+
+.editor{
+    display: flex;
+    flex-direction: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+textarea{
+    flex: 1;
+    padding: 10px;
+    resize: none;
+}
+
+.output{
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+button{
+    padding: 10px 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    border: none;
+    color:#f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+}
