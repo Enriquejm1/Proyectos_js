@@ -45,7 +45,15 @@ nav ul li{
 
 nav ul li a{
     color: #fff;
+    font-size: 30px;
     text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: #F5F5F5;
+    font-size: 30px;
+    margin: 10px 20px;
 }
 
 .info-usu{
