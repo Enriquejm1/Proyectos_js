@@ -13,7 +13,7 @@ background: radial-gradient(circle,rgba(63, 94, 251, 1) 27%, rgba(224, 73, 128, 
 .container{
     text-align: center;
     background-color: #090979;
-    padding: 40px;
+    padding: 50px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }

@@ -1,12 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:#FEFEFE;
+    color: white;
     margin:0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url(/Formulario-login/img/caceOnline.jpg);
 }
 
 .container{
@@ -70,6 +72,7 @@ button[type="submit"]:hover{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 .remember-forgot label{

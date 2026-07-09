@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
-    background-image: url(/Todo-List/list.png);
+    background-image: url(/Todo-List/img/list.png);
     margin: 0;
     padding: 0;
 
@@ -15,7 +15,7 @@ body{
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    background-image: url(/Todo-List/list2.png);
+    background-image: url(/Todo-List/img/list2.png);
 }
 
 h1{

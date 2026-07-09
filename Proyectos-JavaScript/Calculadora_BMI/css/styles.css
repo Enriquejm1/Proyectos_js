@@ -17,6 +17,7 @@ body{
 .container{
   background: url(/Calculadora_BMI/img/running.png);
     width: 90%;
+    color: rgb(43, 134, 245);
     max-width: 400px;
     background-color: #ffff;
     padding: 3rem;
@@ -46,7 +47,7 @@ h1{
     border-radius: 50px;
     background-color: #f6faff;
     font-size: 1rem;
-    color: #333;
+    color: #282727;
 }
 
 button{

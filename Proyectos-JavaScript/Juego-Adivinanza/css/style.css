@@ -53,7 +53,7 @@ button:hover {
     top: 30px;
     right: 40px;
     background: #833AB4;
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 40%, rgba(253, 29, 29, 1) 100%, rgba(252, 176, 69, 1) 9%);
+    background:#ffffff;
     border-radius: 30%;
     padding: 15px 25px;
     font-size: 20px;
