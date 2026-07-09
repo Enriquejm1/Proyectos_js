@@ -1,7 +1,7 @@
 const data = {
   name: "Enrique Juárez Mendoza",
-  desc: "Ingeniero en Computación, Egresado en Ingeníeria en Computación en la UAEMEX",
-  email: "kikeparkin@gmail.com",
+  desc: "Ingeniero en Computación.",
+  email: "kikesparkin@gmail.com",
   phone: " (52) " + 7293552196,
 };
 
