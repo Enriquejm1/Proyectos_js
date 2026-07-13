@@ -1,7 +1,7 @@
 const data = {
   name: "Enrique Juárez Mendoza",
-  desc: "Ingeniero en Computación.",
-  email: "kikesparkin@gmail.com",
+  desc: "Ingeniero en Computación",
+  email: "Enrique_JM1996@hotmail.com",
   phone: " (52) " + 7293552196,
 };
 
